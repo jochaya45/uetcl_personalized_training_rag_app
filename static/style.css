@@ -1,0 +1,43 @@
+
+/* Style the buttons to look like modern chips */
+div[data-testid="stButton"] > button {
+    background-color: #ffffff;
+    color: #333;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    padding: 12px 18px;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+    width: 100%; 
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* Add a hover effect for interactivity */
+div[data-testid="stButton"] > button:hover {
+    background-color: #4C5E6A;
+    transform: scale(1.02); 
+}
+
+/* Style for the container holding the chips */
+[data-testid="stVerticalBlock"] .st-emotion-cache-1tpj0fb {
+    gap: 0.5rem; 
+}
+
+
+div[data-testid="stButton"] > button[kind="secondary"] {
+    background-color: transparent;
+    border: 1px solid #4a5568; 
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-weight: 500;
+    width: auto; 
+    box-shadow: none;
+    float: left; 
+}
+
+div[data-testid="stButton"] > button[kind="secondary"]:hover {
+    background-color: #2A3942;
+    border-color: #718096;
+    color: #FFFFFF;
+    transform: none; 
+}

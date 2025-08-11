@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# PyInstaller
+*.manifest
+*.spec
+dist/
+build/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# MyPy, Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Others
+*.egg-info/
+*.egg
+.eggs/
