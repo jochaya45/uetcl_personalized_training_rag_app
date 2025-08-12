@@ -17,9 +17,6 @@ from enum import Enum
 from typing import Dict, List, Optional
 from pydantic import BaseModel, Field
 
-# If you need to use functions or classes from modules.py, use:
-# from modules import *
-# from modules import *
 
 # --- API KEY SETUP ---
 openai_key = st.secrets["api_keys"]["openai"]
@@ -67,7 +64,7 @@ class RoleProfile:
     scenario_focus: List[str]
     description: str
 
-# --- ROLE MAPPING (Based on your CSV data) ---
+# --- ROLE MAPPING ---
 ROLE_PROFILES = {
     # IT Department - High Risk
     "IT Technician": RoleProfile(
